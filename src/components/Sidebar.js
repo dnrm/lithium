@@ -3,9 +3,9 @@ import ChatList from "./ChatList";
 
 const Sidebar = () => {
   return (
-    <div className="w-[36em] bg-gray-50 h-screen">
-      <div className="p-4 heading shadow-sm">
-        <h1 className="font-thin font-space-grotesk text-2xl">RageChat</h1>
+    <div className="w-full bg-gray-800 h-screen text-white">
+      <div className="px-4 pt-4 heading shadow-sm">
+        <h1 className="font-thin font-space-grotesk text-2xl">Lithium</h1>
       </div>
       <div className="chats h-full pt-2">
         <ChatList

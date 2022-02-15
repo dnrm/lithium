@@ -2,7 +2,7 @@ import React from "react";
 
 const ChatList = ({ name, message, src }) => {
   return (
-    <div className="w-full flex justify-between items-center gap-4 hover:bg-gray-100 px-4 py-3 font-space-grotesk">
+    <div className="w-full flex justify-between items-center gap-4 hover:bg-gray-700 px-4 py-3 font-space-grotesk">
       <div className="flex gap-4">
         <div className="photo">
           <img src={src} alt="" className="object-cover h-14 w-14 rounded-full" />
@@ -12,7 +12,7 @@ const ChatList = ({ name, message, src }) => {
           <p>{message}</p>
         </div>
       </div>
-      <div className="options bg-gray-200 p-3 rounded-xl hover:bg-gray-300">
+      <div className="options bg-gray-600 p-3 rounded-xl hover:bg-gray-500">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"

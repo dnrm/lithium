@@ -3,7 +3,7 @@ import Chat from "./components/Chat";
 
 function App() {
   return (
-    <div className="app border-t-4 border-yellow-500 flex">
+    <div className="app border-t-4 border-teal-700 grid grid-cols-4">
       <Sidebar />
       <Chat />
     </div>
