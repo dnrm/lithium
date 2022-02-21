@@ -3,7 +3,7 @@ import ChatList from "./ChatList";
 
 const Sidebar = () => {
   return (
-    <div className="w-full bg-gray-800 h-screen text-white">
+    <div className="w-full bg-gray-800 h-screen text-white hidden md:block col-span-1">
       <div className="px-4 pt-4 heading shadow-sm">
         <h1 className="font-thin font-space-grotesk text-2xl">Lithium</h1>
       </div>

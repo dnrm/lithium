@@ -2,8 +2,8 @@ import React from "react";
 
 const Chat = () => {
   return (
-    <div className="w-full h-full bg-gray-900 col-span-3">
-      <div className="messages h-[92.6vh] text-white">
+    <div className="w-full h-full bg-gray-900 col-span-4 md:col-span-3">
+      <div className="messages h-[92.6vh] text-white bottom-0">
         <h1>a</h1>
       </div>
       <div className="text-box w-full py-2 px-3 bg-gray-600 flex justify-center items-center gap-2 h-16">
